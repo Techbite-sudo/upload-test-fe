@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     `;
 
   try {
-    const response = await fetch("http://localhost:8080/query", {
+    const response = await fetch("https://upload-simple-backend.onrender.com/query", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
